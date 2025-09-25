@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+body {
+    background-color: black;
+
+
+}
+h1{
+    padding: 20px;
+    color: royalblue;
+
+}
+
+
+.nav ul{
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    list-style-type: none;
+    justify-content: center;
+}
+.nav a{
+    color: antiquewhite;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav a:hover{
+    color: royalblue;
+}
+section{
+    color: royalblue;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+
+}
+.social{
+    padding: 30px;
+}
+.social ul{
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.social a{
+    font-size: large;
+    color: antiquewhite;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+
+}
+ion-icon{
+    font-size:  32px;
+}
+.social a:hover {
+    color: cornflowerblue;
+}
+#copyright{
+    padding: 12px;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
